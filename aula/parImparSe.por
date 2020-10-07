@@ -11,20 +11,25 @@ programa
 		escreva("Digite um número inteiro que vou adivinhar se é par ou impar: ");
 		leia(numero);
 
-		se (numero % 2 == 0){
+		se (numero % 2 == 0)
+		{
 			se(numero <0)
 			{
 				escreva("Já sei! Seu número é par e negativo!");
 			}
-			senao{
+			senao
+			{
 				escreva("Já sei! Seu número é par e positivo!");
 			}
 		}
-		senao {
-			se(numero <0){
+		senao 
+		{
+			se(numero <0)
+			{
 				escreva("Já sei! Seu número é impar e negativo!");
 			}
-			senao{
+			senao
+			{
 				escreva("Já sei! Seu número é impar e positivo!");
 			}
 		}
@@ -35,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 656; 
+ * @POSICAO-CURSOR = 531; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
