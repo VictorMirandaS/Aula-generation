@@ -10,6 +10,21 @@ public class Personagens {
 	private int agilidade;
 	private int precisao;
 	
+	
+	
+	public Personagens() {
+		
+		super();
+		this.nome = nome;
+		this.tipos = tipos;
+		this.tipo = tipo;
+		this.vida = vida;
+		this.forca = forca;
+		this.defesa = defesa;
+		this.agilidade = agilidade;
+		this.precisao = precisao;
+	}
+	
 	public String getNome() {
 		return nome;
 	}
